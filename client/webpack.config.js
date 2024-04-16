@@ -22,7 +22,7 @@ module.exports = {
   },
   devServer: {
     host: '0.0.0.0', // Allow all hosts
-    port: 8080, // Adjust port as needed
+    port: 3000, // Adjust port as needed
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     hot: true,
